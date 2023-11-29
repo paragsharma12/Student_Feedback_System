@@ -1,0 +1,152 @@
+body{
+     height: 1000px;
+    background-image: linear-gradient(
+  180deg,
+  hsl(240deg 14% 99%) 39%,
+  hsl(240deg 26% 91%) 67%,
+  hsl(239deg 27% 84%) 80%,
+  hsl(238deg 27% 76%) 88%,
+  hsl(237deg 27% 69%) 93%,
+  hsl(236deg 27% 61%) 96%,
+  hsl(234deg 27% 54%) 99%,
+  hsl(232deg 32% 46%) 100%,
+  hsl(228deg 46% 38%) 100%,
+  hsl(218deg 90% 27%) 100%
+);
+}
+h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size:8rem;
+    text-align: center;
+    padding-right: 15%;
+    margin: 0%;
+}
+#oo{
+    height: 6rem;
+    background-image: linear-gradient(
+        180deg,
+        hsl(0deg 0% 0%) 32%,
+        hsl(268deg 100% 8%) 77%,
+        hsl(267deg 90% 9%) 88%,
+        hsl(263deg 68% 11%) 93%,
+        hsl(260deg 57% 13%) 97%,
+        hsl(260deg 51% 14%) 99%,
+        hsl(261deg 47% 16%) 100%,
+        hsl(261deg 43% 17%) 100%,
+        hsl(261deg 40% 19%) 100%,
+        hsl(262deg 38% 20%) 100%
+      );
+    font-family: 'Playfair Display', serif;
+
+}
+.nam{
+    width: 90%;
+    height: 90%;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+@media (max-width: 786px) {
+    body{
+        height: max-content;
+       background-image: linear-gradient(
+     180deg,
+     hsl(240deg 14% 99%) 39%,
+     hsl(240deg 26% 91%) 67%,
+     hsl(239deg 27% 84%) 80%,
+     hsl(238deg 27% 76%) 88%,
+     hsl(237deg 27% 69%) 93%,
+     hsl(236deg 27% 61%) 96%,
+     hsl(234deg 27% 54%) 99%,
+     hsl(232deg 32% 46%) 100%,
+     hsl(228deg 46% 38%) 100%,
+     hsl(218deg 90% 27%) 100%
+   );
+   }
+   #oo{
+    height: 9rem;
+   }
+    .nam{
+        margin: 0;
+        padding: 0;
+    }
+   #pp{
+       height: 100%;
+       
+       width: 100%
+    }
+    #kk{
+        height: 100%;
+       text-align: center;
+       width: 100%;
+       margin-left: 30px;
+    }
+    #her{  font-size: 2rem;
+        padding-left: 0%;
+        font-family: 'Playfair Display', serif;
+      }
+      li{
+          font-family: 'Playfair Display', serif;
+      }
+      #list {
+      padding-left: 20px;
+      }
+      
+}
+@media (max-width: 1350px) {
+    h1{
+      font-size: 5rem;
+    }
+}
+ i{
+    margin-right: 10px;
+    font-size: 2rem;
+}
+#sohan {
+    font-size: 1.5em;
+    margin-right: 0px;
+  
+}
+
+
+/* Apply a different box shadow on hover */
+.nam:hover {
+    box-shadow: 8px 8px 15px rgba(17, 84, 143, 0.6); /* Adjust the shadow values as needed */
+}
+h3 {
+  font-size: 3rem;
+  padding-left: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+li{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+ol{
+    padding-left: 7rem;
+}
+.tt{
+    border: 1px solid white;
+   color: aliceblue;
+   font-size: 1.2rem;
+}
+.tt:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,
+    0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
+    color: aliceblue;
+}
+.first{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,
+    0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
+    color: aliceblue;
+}
+#ball a{
+    color: aliceblue;
+}
+#call a{
+    color: aliceblue;
+}
+
+
